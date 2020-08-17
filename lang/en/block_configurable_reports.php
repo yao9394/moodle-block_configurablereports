@@ -504,3 +504,10 @@ $string['privacy:metadata:block_configurable_reports:components'] = 'The configu
  the filters...';
 $string['privacy:metadata:block_configurable_reports:lastexecutiontime'] = 'Time this report took to run last time it was executed,
  in milliseconds.';
+
+ // security check.
+ $string['check_sqlsecurity_warning'] = 'SQL Security is not forced Yes in config.php.';
+ $string['check_sqlsecurity_critical'] = 'SQL Security is No and not forced Yes in config.php.';
+ $string['check_sqlsecurity_ok'] = 'SQL Security is Yes in block configurable report.';
+ $string['check_details'] = 'SQL Security should always be Yes to avoid dangerous sql queries running.';
+ $string['checksqlsecuritycheck'] = 'SQL Security check';
